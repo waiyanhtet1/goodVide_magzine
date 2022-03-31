@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodVide</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+
+  <!-- navbar -->
+  <header>
+    <div class="logo"><img src="img/logo.png" alt="">
+    </div>
+
+  <div class="menu-btn open" onclick="toggle()">
+    <img src="img/double-arrow-bottom.svg" alt="">
+  </div>
+  <div class="menu">
+    <div class="menu-btn close active" onclick="togglerev()">
+        <img src="img/close-line.svg" alt="">
+    </div>
+    <div class="showcase">
+        <div class="hover1"></div>
+        <div class="hover2"></div>
+        <div class="hover3"></div>
+        <div class="hover4"></div>
+    </div>
+    <div class="page-links">
+        <ul class="ul">
+            <div class="li1 li" style="background-color: #99845b;"><a href="index.html" class="a1">Home</a></div>
+            <div class="li2 li"><a href="health.html" class="a2">Category</a></div>
+            <div class="li3 li"><a href="about_us.html" class="a3">About</a></div>
+            <div class="li4 li"><a href="contact.html" class="a4">Contact</a></div>
+        </ul>
+    </div>
+    <div class="social-links">
+        <ul class="ul">
+            <li><a href="health.html">Health</a></li>
+            <li><a href="sport.html">Sport</a></li>
+            <li><a href="beauty.html">Beauty</a></li>
+            <li><a href="tech.html">Technology</a></li>
+            <li><a href="others.html">Others</a></li>
+        </ul>
+    </div>
+</div>
+</header> 
+
+<div class="header-container">
+  <div class="inner-container inner-container-1">
+    <div class="inner-inner-container">
+      <div class="top-section">
+        <h1>stay<br>postive</h1>
+        <p>Health</p>
+      </div>
+      <div class="bottom-section">A</div>
+    </div>
+  </div>
+  <div class="inner-container inner-container-2">
+    <div class="inner-inner-container">
+      <div class="top-section">
+        <h1>playing <br> Tennis</h1>
+        <p>Sport</p>
+      </div>
+      <div class="bottom-section">T</div>
+    </div>
+  </div>
+  <div class="inner-container inner-container-3">
+    <div class="inner-inner-container">
+      <div class="top-section">
+        <h1>Better <br>looking</h1>
+        <p>Beauty</p>
+      </div>
+      <div class="bottom-section">W</div>
+    </div>
+  </div>
+  <div class="inner-container inner-container-4">
+    <div class="inner-inner-container">
+      <div class="top-section">
+        <h1>artist <br>Invention</h1>
+        <p>Technology</p>
+      </div>
+      <div class="bottom-section">R</div>
+    </div>
+  </div>
+
+</div>
+
+
+
+  <!-- content -->
+  <div class="content-container">
+    <div class="row">
+      <!-- first row left col -both -->
+      <div class="col-sm-12 col-md-12 col-lg-6 f-l">
+        <div class="image" data-aos="fade-up">
+          <img src="img/beauty/hair.jpg" alt="">
+        </div>
+        <div class="text" data-aos="fade-up">
+          <span style="color: #99845b;">MAY 7, 2018 / Beauty</span>
+          <h1><a href="#">A Closer Look At Our Front Porch Items From Lowe’s</a></h1>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+          <div class="foot">
+            <li><button><i class="fa-regular fa-thumbs-up"></i></button> 2 likes</li>
+            <li><button><i class="fa-regular fa-comment"></i></button> 3 comments</li>
+            <li><span style="color: #99845b; font-weight: bold;">By</span> <i>WYH</i></li>
+          </div>
+        </div>
+        <div class="row s-r">
+          <!-- second row left col-1 -->
+          <div class="col-sm-12 col-md-6 col-lg-6 s-l s-l-1" data-aos="fade-up">
+            <div class="image">
+              <img src="img/health/teeth.jpg" alt="">
+            </div>
+            <div class="t-text">
+              <h6 style="color: #99845b;">March 10, 2022 / Health</h6>
+              <h4><a href="#">Is It Safe to Whiten Your Teeth with Activated Charcoal Toothpaste?</a></h4>
+              <p>Will brushing your teeth with activated charcoal toothpaste really help whiten them and lift stains?</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 s-l s-l-2" data-aos="fade-down">
+            <div class="image">
+              <img src="img/tech/ipad-drawing.jpg" alt="">
+            </div>
+            <div class="t-text">
+              <h6 style="color: #99845b;">MAY 17, 2018 / Technology</h6>
+              <h4><a href="#">The Best Drawing Apps for Every Kind of iPad Artist </a></h4>
+              <p>APPLE'S IPAD PRO and second-gen Apple Pencil are my favorite art tools. They've replaced all of my traditional art supplies.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row t-r">
+          <!-- third row left col-1 -->
+          <div class="col-sm-12 col-md-6 col-lg-6 t-l t-l-1" data-aos="fade-up">
+            <div class="image">
+              <img src="img/sport/basketball.jpg" alt="">
+            </div>
+            <div class="t-text">
+              <h6 style="color: #99845b;">MAY 10, 2018 / Sport</h6>
+              <h4><a href="#">Booker has 35 points,Suns beat 76ers for 8th win in a row</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 t-l t-l-2" data-aos="fade-down">
+            <div class="image">
+              <img src="img/health/eye.jpg" alt="">
+            </div>
+            <div class="t-text">
+              <h6 style="color: #99845b;">March 3, 2022 / Health</h6>
+              <h4><a href="#">How to Choose the Best Eye Drops for Dry Eyes, According to Eye Doctors </a></h4>
+              <p>Not all eye drops are created equal—here's what to look for to find the most relief.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row fo-r">
+          <!-- fourh row left col-1 -->
+          <div class="col-sm-12 col-md-6 col-lg-6 fo-l fo-l-1" data-aos="fade-up">
+            <div class="image">
+              <img src="img/health/preg.jpg" alt="">
+            </div>
+            <div class="t-text">
+              <h6 style="color: #99845b;">MAY 10, 2020 / Health</h6>
+              <h4><a href="#">What Is Birth Trauma? Distress During Childbirth Can Have Lasting Effects—Here's How to Manage Them</a></h4>
+              <p>Anxiety, hypervigilance, and panic in the days, weeks, or months following the birth are just some of the symptoms of birth trauma.</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 fo-l fo-l-2" data-aos="fade-down">
+            <div class="image">
+              <img src="img/beauty/suit-1.jpg" alt="">
+            </div>
+            <div class="t-text">
+              <h6 style="color: #99845b;">MAY 17, 2018 / Beauty</h6>
+              <h4><a href="#">9 RULES TO FOLLOW WHEN WEARING A SUIT</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="col-sm-12 col-md-12 col-lg-6 f-r">
+        <div class="right-content">
+
+          <div class="about-section">
+            <div class="right-border" data-aos="flip-down">About Us</div>
+            <img src="img/Slider Images/Slider 1.jpg" alt="" data-aos="fade-up">
+            <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis aperiam quisquam asperiores ab natus</p>
+          </div>
+
+          <div class="social-section">
+            <div class="right-border" data-aos="flip-down">Subscribe & Follow</div>
+            <div class="social-icon" data-aos="flip-left" data-aos-duration="1000">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </div>
+          </div>
+
+          <div class="latest-post-section">
+            <div class="right-border" data-aos="flip-down">Latest posts</div>
+
+            <div class="row latest-post" data-aos="zoom-in-up" data-aos-duration="1000">
+              <div class="col-md-12 col-lg-6">
+                <img src="img/content/x2.jpg.pagespeed.ic.O_XU1ss8hP.webp" alt="">
+              </div>
+              <div class="col-md-12 col-lg-6"><p><a href="">10 Books to Read This Summer If You Want to Improve Yourself </a><br><small><b style="color:#99845b;">By </b><i>WYH</i></small></p></div>
+            </div>
+
+            <div class="row latest-post" data-aos="zoom-in-up" data-aos-duration="1000">
+              <div class="col-md-12 col-lg-6">
+                <img src="img/health/beauty.jpg" alt="">
+              </div>
+              <div class="col-md-12 col-lg-6"><p><a href="">Why I Decided to Give up My Favorite Foods and Go Vegan </a><br><small><b style="color:#99845b;">By </b><i>WYH</i></small></p></div>
+            </div>
+
+            <div class="row latest-post" data-aos="zoom-in-up" data-aos-duration="1000">
+              <div class="col-md-12 col-lg-6">
+                <img src="img/sport/tennis1.jpg" alt="">
+              </div>
+              <div class="col-md-12 col-lg-6"><p><a href="">"Novak Djokovic's late withdrawal sure affects...",says top coach  </a><br><small><b style="color:#99845b;">By </b><i>WYH</i></small></p></div>
+            </div>
+
+            <div class="row latest-post" data-aos="zoom-in-up" data-aos-duration="1000">
+              <div class="col-md-12 col-lg-6">
+                <img src="img/tech/iphones.jpg" alt="">
+              </div>
+              <div class="col-md-12 col-lg-6"><p><a href="">Apple wants you to rent the iPhone 14 and I think that's a great idea </a><br><small><b style="color:#99845b;">By </b><i>Aung Gyi</i></small></p></div>
+            </div>
+
+            <div class="row latest-post" data-aos="zoom-in-up" data-aos-duration="1000">
+              <div class="col-md-12 col-lg-6">
+                <img src="img/beauty/dry shampoo.jpg" alt="">
+              </div>
+              <div class="col-md-12 col-lg-6"><p><a href="">16 Hydrating Shampoos Guaranteed To Revive Your Dry Hair </a><br><small><b style="color:#99845b;">By </b><i>Aung Gyi</i></small></p></div>
+            </div>
+
+          </div>
+
+          <div class="summer-collection"  data-aos="flip-up">
+           <img src="img/content/add.webp" alt="">
+          </div>
+
+          <div class="content-me-section">
+            <div class="right-border" data-aos="flip-down">News Letter</div>
+            <p>Subscribe our newsletter for get notification about new updates, information discount, etc.</p>
+            <div class="input-group mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
+              <input type="text" class="form" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="send-mail" type="button" id="button-addon2"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+          </div>
+
+          <div class="popular-tag">
+            <div class="right-border" data-aos="flip-down">Popular Tag</div>
+            <div class="tag-list">
+              <li data-aos="flip-right" data-aos-duration="1000"><button>lifestyle</button></li>
+              <li data-aos="flip-right" data-aos-duration="1000"><button>Sport</button></li>
+              <li data-aos="flip-right" data-aos-duration="1000"><button>Fashion</button></li>
+              <li data-aos="flip-right" data-aos-duration="1000"><button>photograph</button></li>
+              <li data-aos="flip-right" data-aos-duration="1000"><button>yoga</button></li>
+              <li data-aos="flip-right" data-aos-duration="1000"><button>health food</button></li>
+              <li data-aos="flip-right" data-aos-duration="1000"><button>summer holiday</button></li>
+              <li data-aos="flip-right" data-aos-duration="1000"><button>supper food</button></li>
+              <li data-aos="flip-right" data-aos-duration="1000"><button>life</button></li>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="swiper mySwiper-2 ">
+    <div class="swiper-wrapper ">
+        <div class="swiper-slide ">
+            <img src="img/Slider Images/Slider 1.jpg " alt=" ">
+            <a href="health.html" class="swiper-img-title "></a>
+        </div>
+        <div class="swiper-slide ">
+            <img src="img/Slider Images/Slider 2.jpg" alt=" ">
+            <a href="sport.html" class="swiper-img-title "></a>
+        </div>
+        <div class="swiper-slide ">
+            <img src="img/Slider Images/Slider 3.jpg" alt=" ">
+            <a href="beauty.html" class="swiper-img-title "></a>
+        </div>
+        <div class="swiper-slide ">
+            <img src="img/health/beauty1.jpg" alt=" ">
+            <a href="beauty.html" class="swiper-img-title "></a>
+        </div>
+        <div class="swiper-slide ">
+            <img src="img/health/tallimg.jpg" alt=" ">
+            <a href="beauty.html" class="swiper-img-title "></a>
+        </div>
+        <div class="swiper-slide ">
+            <img src="img/beauty/hair.jpg" alt=" ">
+            <a href="beauty.html" class="swiper-img-title "></a>
+        </div>
+        
+    </div>
+    <div class="swiper-button-next text-dark "></div>
+    <div class="swiper-button-prev text-dark "></div>
+  </div>
+  
+  <div class="up">
+    <i class="fa-solid fa-chevron-up img-below"></i>
+    <i class="fa-solid fa-hand-point-up img-top"></i>
+  </div>
+
+<div class="footer">
+    <img src="img/logo.png" alt="">
+    <p>The <span style="color: #99845b; font-weight: bolder;" >Magzine</span></p>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

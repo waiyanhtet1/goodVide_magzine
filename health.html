@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodVIde</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/health.css">
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+
+  <!-- navbar -->
+  <header>
+    <div class="logo"><img src="img/logo.png" alt="">
+    </div>
+
+  <div class="menu-btn open" onclick="toggle()">
+    <img src="img/double-arrow-bottom.svg" alt="">
+  </div>
+  <div class="menu">
+    <div class="menu-btn close active" onclick="togglerev()">
+        <img src="img/close-line.svg" alt="">
+    </div>
+    <div class="showcase">
+        <div class="hover1"></div>
+        <div class="hover2"></div>
+        <div class="hover3"></div>
+        <div class="hover4"></div>
+    </div>
+    <div class="page-links">
+        <ul class="ul">
+            <div class="li1 li"><a href="index.html" class="a1">Home</a></div>
+            <div class="li2 li" style="background-color: #99845b;"><a href="health.html" class="a2">Category</a></div>
+            <div class="li3 li"><a href="about_us.html" class="a3">About</a></div>
+            <div class="li4 li"><a href="contact.html" class="a4">Contact</a></div>
+        </ul>
+    </div>
+    <div class="social-links">
+        <ul class="ul">
+            <li style="background-color: #99845b;"><a href="health.html">Health</a></li>
+            <li><a href="sport.html">Sport</a></li>
+            <li><a href="beauty.html">Beauty</a></li>
+            <li><a href="tech.html">Technology</a></li>
+            <li><a href="others.html">Others</a></li>
+        </ul>
+    </div>
+</div>
+</header> 
+
+<div class="container">
+        <!-- post header  -->
+        <div class="post-header">
+            <div>
+                <h3 class="post-title">Health</h3>
+            </div>
+            <div>
+                <p class="post-title-1">Recent All</p>
+            </div>
+        </div>
+        <!-- main banner  -->
+        <div class="main-banner">
+            <!-- main banner 1  -->
+            <div class="main-banner-1">
+                <!-- post banner  -->
+                <div class="post-banner" data-aos="fade-right">
+                    <!-- post img  -->
+                    <div class="post-img">
+                        <img src="img/health/covid.jpg" alt="" class="">
+                    </div>
+                    <!-- post details  -->
+                    <div class="post-detail">
+                        <p class="text-secondary">Trending Now</p>
+                        <h4>How Long Can You Test Positive for COVID-19?
+                        </h4>
+                        <p>New research shows that having—and surviving—a bout of COVID-19 can lead to various mental health disorders up to a year after infection.</p>
+                        <span class="text-secondary pe-1">By Aung Gyi</span><span class="text-danger">March
+                                3,2022
+                            </span>
+
+                        <a href="health_details.html" class="see-more-btn"> <i class="fa fa-arrow-right" aria-hidden="true">SEE MORE</i></a>
+                    </div>
+                </div>
+                <div class="post-banner" data-aos="fade-right">
+                    <div class="post-img">
+                        <img src="img/health/eye.jpg" alt="" class="">
+                    </div>
+                    <div class="post-detail">
+                        <p class="text-secondary">Trending Now</p>
+                        <h4>How to Choose the Best Eye Drops for Dry Eyes, According to Eye Doctors
+                        </h4>
+                        <p>Not all eye drops are created equal—here's what to look for to find the most relief.</p>
+
+                        <span class="text-secondary pe-1">By Aung Gyi</span><span class="text-danger">March
+                                3,2022
+                            </span>
+                        <a href="health_details.html" class="see-more-btn"> <i class="fa fa-arrow-right" aria-hidden="true">SEE MORE</i></a>
+                    </div>
+                </div>
+                <div class="post-banner" data-aos="fade-right">
+                    <div class="post-img">
+                        <img src="img/health/preg.jpg" alt="" class="">
+                    </div>
+                    <div class="post-detail">
+                        <p class="text-secondary">Trending Now</p>
+                        <h4>What Is Birth Trauma? Distress During Childbirth Can Have Lasting Effects—Here's How to Manage Them
+                        </h4>
+                        <p>Anxiety, hypervigilance, and panic in the days, weeks, or months following the birth are just some of the symptoms of birth trauma.</p>
+
+                        <span class="text-secondary pe-1">By Aung Gyi</span><span class="text-danger">March
+                                3,2022
+                            </span>
+                        <a href="health_details.html" class="see-more-btn"> <i class="fa fa-arrow-right" aria-hidden="true">SEE MORE</i></a>
+                    </div>
+                </div>
+                <div class="post-banner" data-aos="fade-right">
+                    <div class="post-img">
+                        <img src="img/health/flu.jpg" alt="" class="">
+                    </div>
+                    <div class="post-detail">
+                        <p class="text-secondary">Trending Now</p>
+
+                        <h4>What Is in the Flu Shot? Here's How Experts Explain Common Ingredients
+                        </h4>
+                        <p>When it comes to the flu shot, myths and misinformation abound—the most dangerous and completely incorrect claim being that you can actually get the flu from the flu shot.</p>
+                        <span class="text-secondary pe-1">By Aung Gyi</span><span class="text-danger">March
+                                3,2022
+                            </span>
+                        <a href="health_details.html" class="see-more-btn"> <i class="fa fa-arrow-right" aria-hidden="true">SEE MORE</i></a>
+                    </div>
+                </div>
+                <div class="post-banner" data-aos="fade-right">
+                    <div class="post-img">
+                        <img src="img/health/teeth.jpg" alt="" class="">
+                    </div>
+                    <div class="post-detail">
+                        <p class="text-secondary">Trending Now</p>
+
+                        <h4>Is It Safe to Whiten Your Teeth with Activated Charcoal Toothpaste?
+                        </h4>
+                        <p>Will brushing your teeth with activated charcoal toothpaste really help whiten them and lift stains? </p>
+                        <span class="text-secondary pe-1">By Aung Gyi</span><span class="text-danger">March
+                                3,2022
+                            </span>
+                        <a href="health_details.html" class="see-more-btn"> <i class="fa fa-arrow-right" aria-hidden="true">SEE MORE</i></a>
+                    </div>
+                </div>
+                <div class="post-banner" data-aos="fade-right">
+                    <div class="post-img">
+                        <img src="img/health/headache.jpg" alt="" class="">
+                    </div>
+                    <div class="post-detail">
+                        <p class="text-secondary">Trending Now</p>
+
+                        <h4>What Is a 'Stress' Headache and How Can You Treat It?
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deleniti perferendis quos vero cumque necessitatibus aspernatur id quam.</p>
+                        <span class="text-secondary pe-1">By Aung Gyi</span>
+                        <span class="text-danger">March 3,2022</span>
+                        <a href="health_details.html" class="see-more-btn"> <i class="fa fa-arrow-right" aria-hidden="true">SEE MORE</i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- end of main banner 1 -->
+            <!-- main banner 2 -->
+            <div class="main-banner-2">
+                <div class="main-banner-2-left">
+                    <div class="main-banner-2-detail">
+                        <div class="main-banner-2-img" data-aos="flip-down">
+                            <a href="beauty.html" class="w-100 h-100">
+                                <i class="fa fa-plus main-banner-2-img-overlay" aria-hidden="true"></i>
+                                <img src="img/health/beauty.jpg" alt="" class="">
+                            </a>
+                        </div>
+                        <div class="main-banner-2-img" data-aos="flip-down">
+                            <a href="" class="w-100 h-100">
+                                <i class="fa fa-plus main-banner-2-img-overlay" aria-hidden="true"></i>
+                                <img src="img/health/fitness 2.jpg" alt="" class="">
+                            </a>
+                        </div>
+                        <div class="main-banner-2-img" data-aos="flip-down">
+                            <div>
+                                <h3> TRENDING</h3>
+                            </div>
+                        </div>
+                        <div class="main-banner-2-img" data-aos="flip-down">
+                            <a href="health.html" class="w-100 h-100">
+                                <i class="fa fa-plus main-banner-2-img-overlay" aria-hidden="true"></i>
+                                <img src="img/health/fitness 4.jpg" alt="" class="">
+                            </a>
+                        </div>
+                        <div class="main-banner-2-img" data-aos="flip-down">
+                            <a href="sport.html" class="w-100 h-100">
+                                <i class="fa fa-plus main-banner-2-img-overlay" aria-hidden="true"></i>
+                                <img src="img/health/sport 3.jpg" alt="" class="">
+                            </a>
+                        </div>
+                        <div class="main-banner-2-img" data-aos="flip-down">
+                            <div>
+                                <h3> NOW</h3>
+                            </div>
+                        </div>
+                        <div class="main-banner-2-img" data-aos="flip-down">
+                            <a href="sport.html" class="w-100 h-100">
+                                <i class="fa fa-plus main-banner-2-img-overlay" aria-hidden="true"></i>
+                                <img src="img/health/sport 2.jpg" alt="" class="">
+                            </a>
+                        </div>
+                        <div class="main-banner-2-img" data-aos="flip-down">
+                            <a href="sport.html" class="w-100 h-100">
+
+                                <i class="fa fa-plus main-banner-2-img-overlay" aria-hidden="true"></i>
+                                <img src="img/health/fitness 5.jpg" alt="" class="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-banner-2-right" data-aos="zoom-in-up" data-aos-duration="2000">
+                    <div class="">
+                        <a href="health.html">
+                            <img src="img/health/tallimg.jpg" alt="" style="width: 100%;">
+                            <h5 class="mt-2 text-dark">20 Hip-Strengthening Exercises You Can Do at Home</h5>
+                            <p class="text-secondary">Your hips do a lot of work—here's how to keep them strong.</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <!-- end of main banner 2 -->
+            <!-- see all news button to home page  -->
+            <div class="w-100 text-center see-all-news">
+                <a href="index.html" class="btn btn-light btn-outline-dark"> SEE ALL NEWS <i class=" fa fa-angle-double-right " aria-hidden="true "></i></a>
+            </div>
+        </div>
+        <!-- end of main banner  -->
+        <!-- Swiper -->
+        <div class="post-header ">
+            <h3 class="post-title ">More from GoodVide</h3>
+        </div>
+        <div class="swiper mySwiper ">
+            <div class="swiper-wrapper ">
+                <div class="swiper-slide ">
+                    <img src="img/health/health.jpg " alt=" ">
+                    <a href="health.html" class="swiper-img-title ">Health</a>
+                </div>
+                <div class="swiper-slide ">
+                    <img src="img/health/sport 3.jpg " alt=" ">
+                    <a href="sport.html" class="swiper-img-title ">Sport</a>
+                </div>
+                <div class="swiper-slide ">
+                    <img src="img/health/beauty1.jpg " alt=" ">
+                    <a href="beauty.html" class="swiper-img-title ">Beauty</a>
+                </div>
+                <div class="swiper-slide ">
+                    <img src="img/health/tech.jpg " alt=" ">
+                    <a href="tech.html" class="swiper-img-title ">Technology</a>
+                </div>
+                <div class="swiper-slide ">
+                    <img src="img/other/wh-toxic-positivity-gettyimages-183825468-1601933889.png" alt=" ">
+                    <a href="other.html" class="swiper-img-title ">Others</a>
+                </div>
+            </div>
+            <div class="swiper-button-next text-dark "></div>
+            <div class="swiper-button-prev text-dark "></div>
+        </div>
+    </div>
+
+    <div class="up">
+        <i class="fa-solid fa-chevron-up img-below"></i>
+        <i class="fa-solid fa-hand-point-up img-top"></i>
+      </div>
+    
+    
+<div class="footer">
+    <img src="img/logo.png" alt="">
+    <p>The <span style="color: #99845b; font-weight: bolder;" >Magzine</span></p>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
